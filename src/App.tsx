@@ -10,6 +10,7 @@ function App() {
       <Routes>
         <Route path="/dashboard" element={<Dashboard />} />
         <Route path="/" element={<Login />} />
+        <Route path="*" element={<Dashboard />} />
       </Routes>
     </>
   );
